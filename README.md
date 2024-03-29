@@ -111,6 +111,8 @@ There's a mini example of how to get a rate from one token to another in `get_la
 
 ### General notes.
 
+The biggest issue to me is that there was no developer / business feedback loop. As with all projects like this, as revelations about the data / process come to pass, it would be normal to run that by the project sponsor as soon as they are found out in order to ensure the right decisions are still being made. 
+
 Looking at the actual data, there is very few options to optimise swaps. AFAIK liquidity pools don't have a bid/offer spread as per normal currency exchanges, this is all implicit in the pool itself. Therefore, one would always use which ever has the lowest margin.
 
 API Keys weren't required but there is provision for them.
