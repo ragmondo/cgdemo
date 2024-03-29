@@ -6,6 +6,7 @@ import json
 import logging
 
 import requests
+import settings
 
 logger = logging.getLogger(__name__)
 
@@ -43,8 +44,8 @@ class HTTPSource(Source):
 
 sources = [
         # FileSource( "../.idea/httpRequests/2024-03-27T184048.200.json"),
-        HTTPSource("https://api.geckoterminal.com/api/v2/networks/new_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1"),
-        HTTPSource("https://api.geckoterminal.com/api/v2/networks/trending_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1"),
+        HTTPSource(f"{settings.config['GECKOTERMINAL_URL']}networks/new_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1"),
+        HTTPSource(f"{settings.config['GECKOTERMINAL_URL']}networks/trending_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1"),
 ]
 
 IGNORE_LIST = ["N/A"]
