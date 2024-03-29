@@ -12,7 +12,7 @@ The structures I've used can be seen in `cg/gql/models.py` and the graphql imple
 
 
 ### How to run (in order of decreasing simplicity)
-1) Just use the link https://coingeckodemo.reneo.io/graphql (I've left an instance running for now)
+1) Just use the link https://coingeckdemo.reneo.io/graphql (I've left an instance running for now - that URL is correct, I made a typo in the DNS / SSL Cert)
 2) Use docker. Navigate to the docker directory and read the README.md there
 3) Local Python
    1) Install a version of python 3.12. 
