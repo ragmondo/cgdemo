@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: registry.reneo.io/cgdemo:latest
+    pull_policy: always
+    ports:
+      - "8000:8000"
+    environment:
+      - PIP_ROOT_USER_ACTION=ignore
+    restart: always

@@ -1,0 +1,5 @@
+https://api.geckoterminal.com/api/v2/networks/trending_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1
+
+###
+
+https://api.geckoterminal.com/api/v2/networks/new_pools?include=base_token%2C%20quote_token%2C%20dex%2C%20network&page=1
